@@ -1,11 +1,11 @@
 "use client"
 
-
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <section>
-      <h1 className="text-red-600">pep</h1>
-    </section>
+    <div>
+      <Nav></Nav>
+    </div>
   );
 }
