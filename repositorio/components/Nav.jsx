@@ -44,7 +44,7 @@ const Nav = () => {
                     transition: { duration: 0.5 },
                     borderRadius: 10,
                     opacity: 1
-                }} className="p-5 flex items-center justify-center bg-gradient-to-r from-slate-900 to-slate-950 fixed border border-slate-800 border-t-slate-800 border-l-slate-700 lg:w-[50vh] md:w-[70vh] sm:w-[70vh]"
+                }} className="p-5 flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950 fixed border border-slate-800 border-t-slate-800 border-l-slate-700 lg:w-[50vh] md:w-[70vh] sm:w-[70vh]"
                 >
                     <ul className='flex gap-4 text-slate-100 '>
                         <li className='hover:text-slate-300 transition-colors'>
@@ -68,7 +68,7 @@ const Nav = () => {
                     transition: { duration: 0.5 },
                     borderRadius: 10,
                     opacity: 0
-                }} className="p-5 flex items-center justify-center bg-gradient-to-r from-slate-900 to-slate-950 fixed border border-slate-800 border-t-slate-800 border-l-slate-700 lg:w-[50vh] md:w-[70vh] sm:w-[70vh]"
+                }} className="p-5 flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-950 fixed border border-slate-800 border-t-slate-800 border-l-slate-700 lg:w-[50vh] md:w-[70vh] sm:w-[70vh]"
                 >
                     <ul className='flex gap-4 text-slate-100 '>
                         <li className='hover:text-slate-300 transition-colors'>
