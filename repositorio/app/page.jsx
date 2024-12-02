@@ -1,18 +1,18 @@
 "use client"
 
+import About from "@/components/About";
+import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
-import { GridBackgroundDemo } from "@/components/ui/GridBackgroundDemo";
+
 
 export default function Home() {
   return (
-    <div>
-      <div className="z-10 relative">
-      <Nav className="relative z-10"></Nav>
+    <div className="overflow-hidden">
+      <div className="relative z-10">
+        <Nav></Nav>
       </div>
-      <div className="absolute z-0 w-full">
-      <GridBackgroundDemo></GridBackgroundDemo>
-
-      </div>
+      <Hero></Hero>
+      <About></About>
     </div>
   );
 }
