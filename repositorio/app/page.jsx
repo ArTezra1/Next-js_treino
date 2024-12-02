@@ -8,7 +8,7 @@ import Nav from "@/components/Nav";
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      <div className="relative z-10">
+      <div className="relative z-50">
         <Nav></Nav>
       </div>
       <Hero></Hero>
