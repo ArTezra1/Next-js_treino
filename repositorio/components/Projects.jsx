@@ -10,11 +10,14 @@ const Projects = () => {
         <h2 className='lg:text-6xl md:text-6xl sm:text-5xl sm:leading-[60px] font-bold mb-10'>A small selection of <span className='text-purple-300'>recent projects</span></h2>
         </div>
         <div className='grid grid-cols-2 gap-32'>
-         {projects.map((item, i)=>(
+         {projects.map(({title, des, img, iconLists, link, id,})=>(
             <PinContainer
-            key={i}>
-              <PinPerspective>
-
+            key={id}>
+              <PinPerspective
+              img={img}
+              title={title}
+              des={des}
+              >
               </PinPerspective>
             </PinContainer>
          ))}

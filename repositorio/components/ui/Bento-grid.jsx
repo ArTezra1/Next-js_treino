@@ -23,7 +23,6 @@ export const BentoGridItem = ({
   titleClassName,
   spareImg,
 }) => {
-  console.log("className:", className); // Debug para verificar o valor recebido
   const leftLists = ["ReactJS", "Express", "Typescript"];
   const rightLists = ["VueJS", "NextJS", "GraphQL"];
 
