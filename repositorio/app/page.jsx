@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Client from "@/components/Client";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero></Hero>
       <About></About>
       <Projects></Projects>
+      <Client></Client>
     </div>
   );
 }
