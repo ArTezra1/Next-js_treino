@@ -109,7 +109,7 @@ module.exports = {
     },
   },
   plugins: [
-    [addVariablesForColors],
+    addVariablesForColors,
     function ({ matchUtilities, theme }) {
       matchUtilities(
         {

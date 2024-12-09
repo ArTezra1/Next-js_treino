@@ -36,11 +36,11 @@ const Projects = () => {
              </p>
 
              <div className='flex justify-between mt-4'>
-              <div className='flex w-[150px]'>
+              <div className='flex w-[250px]'>
                 {item.iconLists.map((icon, id)=>(
                   <div
                   key={id}
-                  className='p-2 bg-slate-900 rounded-full flex items-center justify-center border border-slate-700'
+                  className='p-2 bg-slate-900 rounded-full flex items-center justify-center border border-slate-700 w-10 h-10'
                   >
                     <img
                     src={icon}
