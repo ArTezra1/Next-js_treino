@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id='projects' className='flex flex-col justify-center items-center text-center'>
       <div className='flex items-center justify-center flex-col lg:w-[60vw] md:w-[50vw] sm:w-[85vw] text-center z-10 mb-24'>
-        <h1 className='lg:text-6xl md:text-6xl sm:text-5xl sm:leading-[60px] font-bold mb-10'>A small selection of <span className='text-purple-300'>recent projects</span>
+        <h1 className='lg:text-6xl md:text-6xl text-5xl leading-[60px] font-bold mb-10'>A small selection of <span className='text-purple-300'>recent projects</span>
         </h1>
       </div>
       <div className='lg:grid grid-cols-2 md:flex sm:flex flex-col items-center justify-center lg:gap-72 sm:gap-60 md:gap-60 mt-10'>
