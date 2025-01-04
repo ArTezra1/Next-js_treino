@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 const Work = () => {
   return (
-    <div className='flex flex-col items-center justify-center md:px-24 p-4'>
+    <section className='flex flex-col items-center justify-center md:px-24 p-4'>
       <div className='flex items-center justify-center flex-col lg:w-[60vw] md:w-[50vw] sm:w-[85vw] text-center z-10 mb-16 mt-28'>
         <h1 className='lg:text-5xl md:text-5xl text-5xl leading-[60px] font-bold'>My work <span className='text-purple-300'>experience</span>
         </h1>
@@ -38,7 +38,7 @@ const Work = () => {
       </div>
 
 
-    </div>
+    </section>
   )
 }
 

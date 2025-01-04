@@ -7,6 +7,8 @@ import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Client from "@/components/Client";
 import Work from "@/components/Work";
+import Approach, { ThreeDCardDemo } from "@/components/Approach";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {
@@ -16,10 +18,14 @@ export default function Home() {
       navItems={navItems}
       ></FloatingNav>
       <Hero></Hero>
-      <About></About>
-      <Projects></Projects>
-      <Client></Client>
-      <Work></Work>
+      <div className="px-10">
+        <About></About>
+        <Projects></Projects>
+        <Client></Client>
+        <Work></Work>
+        <ThreeDCardDemo></ThreeDCardDemo>
+        <Contact></Contact>
+      </div>
     </div>
   );
 }

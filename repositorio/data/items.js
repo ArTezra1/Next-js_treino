@@ -214,3 +214,28 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const approachItems = [
+  {
+    id: 1,
+    title: "Planning & Strategy",
+    desc: "We'll collaborate to map out your website's goals, targer audience, and key funcionalities. We'll discuss things like site structure, navigation, and content requiriments",
+    className: "bg-gradient-to-b from-green-400 to-slate-900",
+    buttonText: "Phase 1",
+    buttonTextClassName: "font-bold text-lg py-4 px-10"
+  },
+  {
+    id: 2,
+    title: "Development & Progress Update",
+    desc: "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+    buttonText: "Phase 2",
+    buttonTextClassName: "font-bold text-lg py-4 px-10"
+  },
+  {
+    id: 3,
+    title: "Development & Launch",
+    desc: "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up.",
+    buttonText: "Phase 3",
+    buttonTextClassName: "font-bold text-lg py-4 px-10"
+  }
+]
